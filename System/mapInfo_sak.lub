@@ -1,0 +1,1386 @@
+-- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Command line:
+mapTbl =
+
+{
+
+    ["aldebaran.rsw"] =
+    {
+        displayName = "运河之都 艾尔帕兰",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "运河之都 艾尔帕兰"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["geffen.rsw"] =
+    {
+        displayName = "魔法之都 吉芬",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "魔法之都 吉芬"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["prontera.rsw"] =
+    {
+        displayName = "卢恩 米德加兹王国 首都 普隆德拉",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "卢恩 米德加兹王国 首都 普隆德拉"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["payon.rsw"] =
+    {
+        displayName = "山岳之都 斐扬",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "山岳之都 斐扬"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["morocc.rsw"] =
+    {
+        displayName = "沙漠之都 梦罗克",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "沙漠之都 梦罗克"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["alberta.rsw"] =
+    {
+        displayName = "港口之都 艾尔贝塔",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "港口之都 艾尔贝塔"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["izlude.rsw"] =
+    {
+        displayName = "卫星都市 伊思鲁德岛",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国",mainTitle = "卫星都市 伊思鲁德岛"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["prt_maze03.rsw"] =
+    {
+        displayName = "普隆德拉 北之森林迷宫 3层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉地区",mainTitle = "普隆德拉 北之森林迷宫 3层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["c_tower4.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔 4层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰地区",mainTitle = "艾尔帕兰 钟塔 4层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["alde_dun04.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔洞穴 地下4层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰地区",mainTitle = "艾尔帕兰 钟塔洞穴 地下4层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["iz_dun04.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 5层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德地区",mainTitle = "伊思鲁德 海底洞穴 5层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["pay_dun04.rsw"] =
+    {
+        displayName = "斐扬 地宫洞穴 5层",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬地区",mainTitle = "斐扬 地宫洞穴 5层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["treasure02.rsw"] =
+    {
+        displayName = "艾尔贝塔 沉船遗迹 2层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔贝塔地区",mainTitle = "艾尔贝塔 沉船遗迹 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["anthell02.rsw"] =
+    {
+        displayName = "蚂蚁地狱密穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "蚂蚁地狱地区",mainTitle = "蚂蚁地狱密穴 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["in_sphinx5.rsw"] =
+    {
+        displayName = "梦罗克 斯芬克斯密穴 5层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克地区",mainTitle = "梦罗克 斯芬克斯密穴 5层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["moc_pryd04.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 4层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克地区",mainTitle = "梦罗克 金字塔密穴 4层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["moc_pryd06.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 地下2层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克地区",mainTitle = "梦罗克 金字塔密穴 地下2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["moc_prydb1.rsw"] =
+    {
+        displayName = "梦罗克 盗贼公会",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克地区",mainTitle = "梦罗克 盗贼公会"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["orcsdun02.rsw"] =
+    {
+        displayName = "吉芬 兽人地下洞穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬地区",mainTitle = "吉芬 兽人地下洞穴 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gef_tower.rsw"] =
+    {
+        displayName = "吉芬 中央塔",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬地区",mainTitle = "吉芬 中央塔"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gef_dun02.rsw"] =
+    {
+        displayName = "吉芬 地下密穴 3层",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬地区",mainTitle = "吉芬 地下密穴 3层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_cas01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 城堡 1层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 城堡 1层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_cas02.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 城堡 2层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 城堡 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_church.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 修道院",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 修道院"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_chyard.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下公墓",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下公墓"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_dun01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下洞穴",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下洞穴"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_in01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 内城",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 内城"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_knt01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 骑士团 1层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 骑士团 1层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_knt02.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 骑士团 2层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 骑士团 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_prison.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下监狱",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下监狱"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_sew01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下水道 1层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下水道 1层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_sew02.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下水道 2层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下水道 2层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_sew03.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下水道 3层",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 地下水道 3层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_sew04.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 阶梯密室",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 阶梯密室"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_step.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 阶梯密室",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城 地区",mainTitle = "克雷斯特汉姆 古城 阶梯密室"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["prt_sewb4.rsw"] =
+    {
+        displayName = "普隆德拉 下水道 4层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉地区",mainTitle = "普隆德拉 下水道 4层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["prt_maze01.rsw"] =
+    {
+        displayName = "普隆德拉 北之森林迷宫 1层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 北之森林迷宫 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["prt_maze02.rsw"] =
+    {
+        displayName = "普隆德拉 北之森林迷宫 2层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 北之森林迷宫 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["c_tower1.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔 1层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["c_tower2.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔 2层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["c_tower3.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔 3层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["alde_dun01.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔洞穴 地下1层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔洞穴 地下1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["alde_dun02.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔洞穴 地下2层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔洞穴 地下2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["alde_dun03.rsw"] =
+    {
+        displayName = "艾尔帕兰 钟塔洞穴 地下3层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔帕兰 钟塔洞穴 地下3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["iz_dun00.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德 海底洞穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["iz_dun01.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德 海底洞穴 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["iz_dun02.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 3层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德 海底洞穴 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["iz_dun03.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 4层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德 海底洞穴 4层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["pay_dun00.rsw"] =
+    {
+        displayName = "斐扬 地宫洞穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 地宫洞穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["pay_dun01.rsw"] =
+    {
+        displayName = "斐扬 地宫洞穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 地宫洞穴 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["pay_dun02.rsw"] =
+    {
+        displayName = "斐扬 地宫洞穴 3层",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 地宫洞穴 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["pay_dun03.rsw"] =
+    {
+        displayName = "斐扬 地宫洞穴 4层",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 地宫洞穴 4层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["treasure01.rsw"] =
+    {
+        displayName = "艾尔贝塔 沉船遗迹 1层",notifyEnter = true,signName =
+        {
+            subTitle = "艾尔贝塔 沉船遗迹 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["anthell01.rsw"] =
+    {
+        displayName = "蚂蚁地狱密穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "蚂蚁地狱密穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["in_sphinx1.rsw"] =
+    {
+        displayName = "梦罗克 斯芬克斯密穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 斯芬克斯密穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["in_sphinx2.rsw"] =
+    {
+        displayName = "梦罗克 斯芬克斯密穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 斯芬克斯密穴 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["in_sphinx3.rsw"] =
+    {
+        displayName = "梦罗克 斯芬克斯密穴 3层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 斯芬克斯密穴 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["in_sphinx4.rsw"] =
+    {
+        displayName = "梦罗克 斯芬克斯密穴 4层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 斯芬克斯密穴 4层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["moc_pryd01.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 金字塔密穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["moc_pryd02.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 金字塔密穴 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["moc_pryd03.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 3层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 金字塔密穴 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["moc_pryd05.rsw"] =
+    {
+        displayName = "梦罗克 金字塔密穴 地下1层",notifyEnter = true,signName =
+        {
+            subTitle = "梦罗克 金字塔密穴 地下1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["orcsdun01.rsw"] =
+    {
+        displayName = "吉芬 兽人地下洞穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 兽人地下洞穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["gef_dun00.rsw"] =
+    {
+        displayName = "吉芬 地下密穴 1层",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 地下密穴 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["gef_dun01.rsw"] =
+    {
+        displayName = "吉芬 地下密穴 2层",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 地下密穴 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["prt_sewb1.rsw"] =
+    {
+        displayName = "普隆德拉 下水道 1层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 下水道 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["prt_sewb2.rsw"] =
+    {
+        displayName = "普隆德拉 下水道 2层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 下水道 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["prt_sewb3.rsw"] =
+    {
+        displayName = "普隆德拉 下水道 3层",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 下水道 3层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["mjolnir_12.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边山麓",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边山麓"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_05.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_04.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_03.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_02.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_01.rsw"] =
+    {
+        displayName = "妙勒尼山脉 北边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 北边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["glast_01.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild06.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild05.rsw"] =
+    {
+        displayName = "吉芬 旷野 哥布灵营寨",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野 哥布灵营寨"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild04.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_06.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_07.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_08.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_10.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_11.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边地区",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边地区"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild08.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild07.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild00.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild00.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["mjolnir_09.rsw"] =
+    {
+        displayName = "妙勒尼山脉 南边山麓",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼山脉 南边山麓"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild01.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild02.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild03.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild09.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild01.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild04.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild05.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild06.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild14.rsw"] =
+    {
+        displayName = "兽人部落 西",notifyEnter = true,signName =
+        {
+            subTitle = "兽人部落 西"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild10.rsw"] =
+    {
+        displayName = "兽人部落 东",notifyEnter = true,signName =
+        {
+            subTitle = "兽人部落 东"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild03.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild02.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild07.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild08.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["gef_fild11.rsw"] =
+    {
+        displayName = "吉芬 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild11.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild10.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_fild09.rsw"] =
+    {
+        displayName = "普隆德拉 旷野",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 旷野"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild01.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild04.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild02.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild08.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild09.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild13.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild03.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild01.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild07.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild10.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild02.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild03.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild06.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["pay_fild06.rsw"] =
+    {
+        displayName = "斐扬 树林",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 树林"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild07.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild19.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["cmd_fild08.rsw"] =
+    {
+        displayName = "要塞都市 山特勒曼 东边区域",notifyEnter = true,signName =
+        {
+            subTitle = "要塞都市 山特勒曼 东边区域"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild12.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild11.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild18.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild17.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["moc_fild16.rsw"] =
+    {
+        displayName = "苏克拉特沙漠",notifyEnter = true,signName =
+        {
+            subTitle = "苏克拉特沙漠"
+        },
+        backgroundBmp = "field_s1"
+    },
+
+    ["prt_monk.rsw"] =
+    {
+        displayName = "圣 卡比利那 修道院",notifyEnter = true,signName =
+        {
+            subTitle = "圣 卡比利那 修道院"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["pay_arche.rsw"] =
+    {
+        displayName = "斐扬 弓箭手村",notifyEnter = true,signName =
+        {
+            subTitle = "斐扬 弓箭手村"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["alb2trea.rsw"] =
+    {
+        displayName = "沉船附近 无名岛屿",notifyEnter = true,signName =
+        {
+            subTitle = "沉船附近 无名岛屿"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["moc_ruins.rsw"] =
+    {
+        displayName = "沙漠之都 梦罗克 旧城废墟",notifyEnter = true,signName =
+        {
+            subTitle = "沙漠之都 梦罗克 旧城废墟"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["geffen_in.rsw"] =
+    {
+        displayName = "魔法之都 吉芬",notifyEnter = true,signName =
+        {
+            subTitle = "魔法之都 吉芬"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["in_orcs01.rsw"] =
+    {
+        displayName = "吉芬 兽人村落",notifyEnter = true,signName =
+        {
+            subTitle = "吉芬 兽人村落"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["izlu2dun.rsw"] =
+    {
+        displayName = "柏伊亚岚岛",notifyEnter = true,signName =
+        {
+            subTitle = "柏伊亚岚岛"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["izlude_in.rsw"] =
+    {
+        displayName = "卫星都市 伊思鲁德岛",notifyEnter = true,signName =
+        {
+            subTitle = "卫星都市 伊思鲁德岛"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["monk_in.rsw"] =
+    {
+        displayName = "圣 卡比利那 修道院",notifyEnter = true,signName =
+        {
+            subTitle = "圣 卡比利那 修道院"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["morocc_in.rsw"] =
+    {
+        displayName = "沙漠之都 梦罗克",notifyEnter = true,signName =
+        {
+            subTitle = "沙漠之都 梦罗克"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["prt_church.rsw"] =
+    {
+        displayName = "普隆德拉 教堂",notifyEnter = true,signName =
+        {
+            subTitle = "普隆德拉 教堂"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["prt_in.rsw"] =
+    {
+        displayName = "卢恩 米德加兹王国 首都 普隆德拉",notifyEnter = true,signName =
+        {
+            subTitle = "卢恩 米德加兹王国 首都 普隆德拉"
+        },
+        backgroundBmp = "village_s1"
+    },
+
+    ["mjo_dun01.rsw"] =
+    {
+        displayName = "妙勒尼废弃矿场 1层",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼废弃矿场 1层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["mjo_dun02.rsw"] =
+    {
+        displayName = "妙勒尼废弃矿场 2层",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼废弃矿场 2层"
+        },
+        backgroundBmp = "dungeon_s1"
+    },
+
+    ["mjo_dun03.rsw"] =
+    {
+        displayName = "妙勒尼废弃矿场 3层",notifyEnter = true,signName =
+        {
+            subTitle = "妙勒尼废弃矿场",mainTitle = "妙勒尼废弃矿场 3层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_dun02.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下洞穴",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城",mainTitle = "克雷斯特汉姆 古城 地下洞穴"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["gl_prison1.rsw"] =
+    {
+        displayName = "克雷斯特汉姆 古城 地下监狱",notifyEnter = true,signName =
+        {
+            subTitle = "克雷斯特汉姆 古城",mainTitle = "克雷斯特汉姆 古城 地下监狱"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["iz_dun05.rsw"] =
+    {
+        displayName = "伊思鲁德 海底洞穴 6层",notifyEnter = true,signName =
+        {
+            subTitle = "伊思鲁德 海底洞穴",mainTitle = "伊思鲁德 海底洞穴 6层"
+        },
+        backgroundBmp = "dungeon"
+    },
+
+    ["ra_temsky.rsw"] =
+    {
+        displayName = "普隆德拉 教堂 空中庭院",notifyEnter = true,signName =
+        {
+            subTitle = "神启之地",mainTitle = "普隆德拉 教堂 空中庭院"
+        },
+        backgroundBmp = "village"
+    },
+
+    ["new_zone01.rsw"] =
+    {
+        displayName = "初学者试炼 场地",notifyEnter = true,signName =
+        {
+            subTitle = "初学者试炼 场地",mainTitle = "初学者试炼 场地"
+        },
+        backgroundBmp = "noname"
+    },
+
+    ["new_zone02.rsw"] =
+    {
+        displayName = "初学者试炼 场地",notifyEnter = true,signName =
+        {
+            subTitle = "初学者试炼 场地",mainTitle = "初学者试炼 场地"
+        },
+        backgroundBmp = "noname"
+    },
+
+    ["new_zone03.rsw"] =
+    {
+        displayName = "初学者试炼 场地",notifyEnter = true,signName =
+        {
+            subTitle = "初学者试炼 场地",mainTitle = "初学者试炼 场地"
+        },
+        backgroundBmp = "noname"
+    },
+
+
+}
+main = function()
+       for name,info in pairs(mapTbl) do
+               displayName = "Unknown Place"
+                             if info.displayName ~= nil then
+                                     displayName = info.displayName
+                                             end
+                                             notify_enter = false
+                                                     if info.notifyEnter ~= nil then
+                                                                 notify_enter = info.notifyEnter
+                                                                         end
+                                                                         result = AddMapDisplayName(name, displayName, notify_enter)
+                                                                                     if info.signName ~= nil then
+                                                                                             subTitle = ""
+                                                                                                     if info.signName.subTitle ~= nil then
+                                                                                                                 subTitle = info.signName.subTitle
+                                                                                                                         end
+                                                                                                                         mainTitle = ""
+                                                                                                                                 if info.signName.mainTitle ~= nil then
+                                                                                                                                             mainTitle = info.signName.mainTitle
+                                                                                                                                                     end
+                                                                                                                                                     result = AddMapSignName(name, subTitle, mainTitle)
+                                                                                                                                                                 end
+                                                                                                                                                                 if info.backgroundBmp ~= nil then
+                                                                                                                                                                         result = AddMapBackgroundBmp(name, info.backgroundBmp)
+                                                                                                                                                                                     end
+                                                                                                                                                                                     end
+                                                                                                                                                                                     return result, msg
+                                                                                                                                                                                             end

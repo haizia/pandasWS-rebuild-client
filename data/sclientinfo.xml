@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gbk" ?>
+<clientinfo>
+    <desc>Ragnarok Client Information</desc>
+    <servicetype>korea</servicetype>
+    <servertype>sakray</servertype>
+	<connection>
+		<display>熊猫模拟器[^990000localhost^000000]</display>
+		<desc>Ragnarok Online</desc>
+		<balloon>基于韩服 2021-11-17 客户端资源整理</balloon>
+		<address>127.0.0.1</address>
+		<port>6900</port>
+		<version>20</version>
+		<langtype>3</langtype>
+		<registrationweb>https://pandas.ws/</registrationweb>
+		<loading>
+			<image>loading00.jpg</image>
+			<image>loading01.jpg</image>
+			<image>loading02.jpg</image>
+			<image>loading03.jpg</image>
+			<image>loading04.jpg</image>
+		</loading>
+	</connection>
+	<connection>
+		<display>熊猫模拟器[^772222online^000000]</display>
+		<desc>Ragnarok Online</desc>
+		<balloon>基于韩服 2021-11-17 客户端资源整理</balloon>
+		<address>49.234.98.23</address>
+		<port>6900</port>
+		<version>20</version>
+		<langtype>3</langtype>
+		<registrationweb>https://pandas.ws/</registrationweb>
+		<loading>
+			<image>loading00.jpg</image>
+			<image>loading01.jpg</image>
+			<image>loading02.jpg</image>
+			<image>loading03.jpg</image>
+			<image>loading04.jpg</image>
+		</loading>
+	</connection>
+</clientinfo>

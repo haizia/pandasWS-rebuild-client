@@ -1,0 +1,132 @@
+prt_maze01.rsw#普隆德拉 北之森林迷宫 1层#
+prt_maze02.rsw#普隆德拉 北之森林迷宫 2层#
+prt_maze03.rsw#普隆德拉 北之森林迷宫 3层#
+c_tower1.rsw#艾尔帕兰 钟塔 1层#
+c_tower2.rsw#艾尔帕兰 钟塔 2层#
+c_tower3.rsw#艾尔帕兰 钟塔 3层#
+c_tower4.rsw#艾尔帕兰 钟塔 4层#
+alde_dun01.rsw#艾尔帕兰 钟塔洞穴 地下1层#
+alde_dun02.rsw#艾尔帕兰 钟塔洞穴 地下2层#
+alde_dun03.rsw#艾尔帕兰 钟塔洞穴 地下3层#
+alde_dun04.rsw#艾尔帕兰 钟塔洞穴 地下4层#
+iz_dun00.rsw#伊思鲁德 海底洞穴 1层#
+iz_dun01.rsw#伊思鲁德 海底洞穴 2层#
+iz_dun02.rsw#伊思鲁德 海底洞穴 3层#
+iz_dun03.rsw#伊思鲁德 海底洞穴 4层#
+iz_dun04.rsw#伊思鲁德 海底洞穴 5层#
+pay_dun00.rsw#斐扬 地宫洞穴 1层#
+pay_dun01.rsw#斐扬 地宫洞穴 2层#
+pay_dun02.rsw#斐扬 地宫洞穴 3层#
+pay_dun03.rsw#斐扬 地宫洞穴 4层#
+pay_dun04.rsw#斐扬 地宫洞穴 5层#
+treasure01.rsw#艾尔贝塔 沉船遗迹 1层#
+treasure02.rsw#艾尔贝塔 沉船遗迹 2层#
+anthell01.rsw#蚂蚁地狱密穴 1层#
+anthell02.rsw#蚂蚁地狱密穴 2层#
+in_sphinx1.rsw#梦罗克 斯芬克斯密穴 1层#
+in_sphinx2.rsw#梦罗克 斯芬克斯密穴 2层#
+in_sphinx3.rsw#梦罗克 斯芬克斯密穴 3层#
+in_sphinx4.rsw#梦罗克 斯芬克斯密穴 4层#
+in_sphinx5.rsw#梦罗克 斯芬克斯密穴 5层#
+moc_pryd01.rsw#梦罗克 金字塔密穴 1层#
+moc_pryd02.rsw#梦罗克 金字塔密穴 2层#
+moc_pryd03.rsw#梦罗克 金字塔密穴 3层#
+moc_pryd04.rsw#梦罗克 金字塔密穴 4层#
+moc_pryd05.rsw#梦罗克 金字塔密穴 地下1层#
+moc_pryd06.rsw#梦罗克 金字塔密穴 地下2层#
+moc_prydb1.rsw#梦罗克 盗贼公会#
+orcsdun01.rsw#吉芬 兽人地下洞穴 1层#
+orcsdun02.rsw#吉芬 兽人地下洞穴 2层#
+gef_tower.rsw#吉芬 中央塔#
+gef_dun00.rsw#吉芬 地下密穴 1层#
+gef_dun01.rsw#吉芬 地下密穴 2层#
+gef_dun02.rsw#吉芬 地下密穴 3层#
+gl_cas01.rsw#克雷斯特汉姆 古城 城堡 1层#
+gl_cas02.rsw#克雷斯特汉姆 古城 城堡 2层#
+gl_church.rsw#克雷斯特汉姆 古城 修道院#
+gl_chyard.rsw#克雷斯特汉姆 古城 地下公墓#
+gl_dun01.rsw#克雷斯特汉姆 古城 地下洞穴#
+gl_in01.rsw#克雷斯特汉姆 古城 内城#
+gl_knt01.rsw#克雷斯特汉姆 古城 骑士团 1层#
+gl_knt02.rsw#克雷斯特汉姆 古城 骑士团 2层#
+gl_prison.rsw#克雷斯特汉姆 古城 地下监狱#
+gl_sew01.rsw#克雷斯特汉姆 古城 地下水道 1层#
+gl_sew02.rsw#克雷斯特汉姆 古城 地下水道 2层#
+gl_sew03.rsw#克雷斯特汉姆 古城 地下水道 3层#
+gl_sew04.rsw#克雷斯特汉姆 古城 阶梯密室#
+gl_step.rsw#克雷斯特汉姆 古城 阶梯密室#
+prt_sewb1.rsw#普隆德拉 下水道 1层#
+prt_sewb2.rsw#普隆德拉 下水道 2层#
+prt_sewb3.rsw#普隆德拉 下水道 3层#
+prt_sewb4.rsw#普隆德拉 下水道 4层#
+aldebaran.rsw#运河之都 艾尔帕兰#
+geffen.rsw#魔法之都 吉芬#
+prontera.rsw#卢恩 米德加兹王国 首都 普隆德拉#
+payon.rsw#山岳之都 斐扬#
+morocc.rsw#沙漠之都 梦罗克#
+alberta.rsw#港口之都 艾尔贝塔#
+mjolnir_12.rsw#妙勒尼山脉 北边山麓#
+mjolnir_05.rsw#妙勒尼山脉 北边地区#
+mjolnir_04.rsw#妙勒尼山脉 北边地区#
+mjolnir_03.rsw#妙勒尼山脉 北边地区#
+mjolnir_02.rsw#妙勒尼山脉 北边地区#
+mjolnir_01.rsw#妙勒尼山脉 北边地区#
+glast_01.rsw#克雷斯特汉姆 古城#
+gef_fild06.rsw#吉芬 旷野#
+gef_fild05.rsw#吉芬 旷野 哥布灵营寨#
+gef_fild04.rsw#吉芬 旷野#
+mjolnir_06.rsw#妙勒尼山脉 南边地区#
+mjolnir_07.rsw#妙勒尼山脉 南边地区#
+mjolnir_08.rsw#妙勒尼山脉 南边地区#
+mjolnir_10.rsw#妙勒尼山脉 南边地区#
+mjolnir_11.rsw#妙勒尼山脉 南边地区#
+gef_fild08.rsw#吉芬 旷野#
+gef_fild07.rsw#吉芬 旷野#
+gef_fild00.rsw#吉芬 旷野#
+prt_fild00.rsw#普隆德拉 旷野#
+mjolnir_09.rsw#妙勒尼山脉 南边山麓#
+prt_fild01.rsw#普隆德拉 旷野#
+prt_fild02.rsw#普隆德拉 旷野#
+prt_fild03.rsw#普隆德拉 旷野#
+prt_monk.rsw#圣 卡比利那 修道院#
+gef_fild09.rsw#吉芬 旷野#
+gef_fild01.rsw#吉芬 旷野#
+prt_fild04.rsw#普隆德拉 旷野#
+prt_fild05.rsw#普隆德拉 旷野#
+prt_fild06.rsw#普隆德拉 旷野#
+gef_fild14.rsw#兽人部落 西#
+gef_fild10.rsw#兽人部落 东#
+gef_fild03.rsw#吉芬 旷野#
+gef_fild02.rsw#吉芬 旷野#
+prt_fild07.rsw#普隆德拉 旷野#
+prt_fild08.rsw#普隆德拉 旷野#
+izlude.rsw#卫星都市 伊思鲁德岛#
+gef_fild11.rsw#吉芬 旷野#
+prt_fild11.rsw#普隆德拉 旷野#
+prt_fild10.rsw#普隆德拉 旷野#
+prt_fild09.rsw#普隆德拉 旷野#
+moc_fild01.rsw#苏克拉特沙漠#
+moc_fild04.rsw#苏克拉特沙漠#
+pay_arche.rsw#斐扬 弓箭手村#
+moc_fild02.rsw#苏克拉特沙漠#
+pay_fild08.rsw#斐扬 树林#
+pay_fild09.rsw#斐扬 树林#
+moc_fild13.rsw#苏克拉特沙漠#
+moc_fild03.rsw#苏克拉特沙漠#
+pay_fild01.rsw#斐扬 树林#
+pay_fild07.rsw#斐扬 树林#
+pay_fild10.rsw#斐扬 树林#
+pay_fild02.rsw#斐扬 树林#
+pay_fild03.rsw#斐扬 树林#
+pay_fild06.rsw#斐扬 树林#
+pay_fild06.rsw#斐扬 树林#
+alb2trea.rsw#沉船附近 无名岛屿#
+moc_fild07.rsw#苏克拉特沙漠#
+moc_ruins.rsw#沙漠之都 梦罗克 旧城废墟#
+moc_fild19.rsw#苏克拉特沙漠#
+cmd_fild08.rsw#要塞都市 山特勒曼 东边区域#
+moc_fild12.rsw#苏克拉特沙漠#
+moc_fild11.rsw#苏克拉特沙漠#
+moc_fild18.rsw#苏克拉特沙漠#
+moc_fild17.rsw#苏克拉特沙漠#
+moc_fild16.rsw#苏克拉特沙漠#
